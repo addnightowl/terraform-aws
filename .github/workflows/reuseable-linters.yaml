@@ -3,6 +3,8 @@ name: Reuseable Linter GitHub Actions
 on:
   push:
 
+
+
 jobs:
   # Linter Action Jobs - Reuseable
   Call-Linters:
