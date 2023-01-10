@@ -1,0 +1,30 @@
+name: Reuseable Linter GitHub Actions
+
+on:
+  push:
+    branches: [ dev ]
+    
+jobs:
+  # Linter Action Jobs - Reuseable
+  Call-Linters:
+    uses: addnightowl/ant-terransible/.github/workflows/new-action-try.yaml
+
+  # # Hadolint GitHub Action
+  # Hadolint:
+  #   uses: addnightowl/ant-terransible/.github/workflows/hadolint-action.yaml@dev
+
+  # # ShellCheck GitHub Action
+  # ShellCheck:
+  #   uses: addnightowl/ant-terransible/.github/workflows/shellcheck-action.yaml@dev
+
+  # # TFLint GitHub Action
+  # TFLint:
+  #   uses: addnightowl/ant-terransible/.github/workflows/tflint-action.yaml@dev
+
+  # # Terraform Formatting GitHub Action
+  # Terraform-Formatting:
+  #   uses: addnightowl/ant-terransible/.github/workflows/terraform-fmt-action.yaml@dev
+
+  # # Checkov GitHub Action
+  # Checkov:
+  #   uses: addnightowl/ant-terransible/.github/workflows/checkov-action.yaml@dev
