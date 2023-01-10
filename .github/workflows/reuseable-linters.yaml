@@ -2,12 +2,11 @@ name: Reuseable Linter GitHub Actions
 
 on:
   push:
-    branches: [ dev ]
-    
+
 jobs:
   # Linter Action Jobs - Reuseable
   Call-Linters:
-    uses: addnightowl/ant-terransible/.github/workflows/new-action-try.yaml
+    uses: addnightowl/ant-terransible/.github/workflows/new-action-try.yaml@merge-to-dev
 
   # # Hadolint GitHub Action
   # Hadolint:
