@@ -2,8 +2,8 @@ name: Reuseable Linter GitHub Actions
 
 on:
   push:
-
-
+  pull_request:
+    
 
 jobs:
   # Linter Action Jobs - Reuseable
