@@ -6,5 +6,11 @@
 
 # .tfstate files
 *.tfstate
-*.tfstate.backup
-*.json
+*.tfstate.*
+*state.json
+
+# Crash log files
+crash.log
+
+# Ansible
+*.retry
